@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>MIS XV AÑOS - INVITACIÓN</title>
+     <script src="https://kit.fontawesome.com/61057a381e.js" crossorigin="anonymous"></script>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+     <!-- MENSAJE -->
+
+     <div class="cuadro">
+          <p id="One" >Hay momentos en la vida que imaginamos, soñamos y
+          <p id="Onee">esperamos uno de esos momentos ha llegado.</p><br><br>
+          
+          <h1 class="Titulo-XV"> Mis xv años </h1>
+                              
+          <h2 class="Titulo-Principal"> Maria Fernanda </h2><br>
+	
+          <p id="Two"> Con la bendición de Dios y de mis padres.</p>
+          <p id="Tree">José Luis Retana Mejia y Jannette I. López Lagunas.</p><br>
+                          
+          <p id="For"> Tenemos el honor de invitarlos a la misa de acción de gracias</p>
+          <p id="Five">que se ofrecerá en la Parroquia del Espíritu Santo y </p>
+          <p id="Six">Santa María de Guadalupe a las 4:45 pm.</p><br><br>
+                         
+            <h3 class="Titulo-Madrina">Mi madrina</h3>
+             <p id="Seven"> Sandra Guarneros Lagunas.</p>
+     </div>
+
+     <!-- FECHA -->
+
+     <div class="fecha">
+          <h1 class="dia"> 3 de Diciembre del 2022 </h1>
+     </div>
+
+     <!-- RELOJ CUENTA REGRESIVA -->
+     
+     <div class="Reloj">
+          <div id="cuenta"></div>
+     </div>
+
+
+     <!-- DESTINO -->
+
+     <div class="Destino">
+               <h1 class="Titulo_1"> ¿Comó llegar? </h1>
+          <div class="lugar">
+               <img class="Reunion" src="./Galeria/ICONO IGLESIA.png" id="misa"> 
+               <img class="Reunion" src="./Galeria/ICONO-REGALO.png" id="regalo">
+          </div>   
+               <p class="iglesia"><label for="btn-modal"> Celebración religiosa </label> </p> <p class="fiesta"> <label for="evento-salon"> Evento social </label> </p>
+               
+       
+     </div>
+
+
+     <!--Ventana Modal IGLESIA-->
+     <input type="checkbox" id="btn-modal">
+     
+     <div class="container-modal">
+        <div class="content-modal">
+            <h2>¡Dirección para la Parroquia!</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.970415244751!2d-99.046978!3d19.499908599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1faf1d19b9889%3A0x17b294bb33e9799c!2sParroquia%20del%20Esp%C3%ADritu%20Santo%20y%20Santa%20Mar%C3%ADa%20de%20Guadalupe!5e0!3m2!1ses-419!2smx!4v1657936107404!5m2!1ses-419!2smx" 
+               width="100%" height="450" name="Misaframe"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <div class="btn-cerrar">
+                <label for="btn-modal">Cerrar</label>
+            </div>
+        </div>
+        <label for="btn-modal" class="cerrar-modal"></label>
+     </div>
+
+     <!--Fin de Ventana Modal IGLESIA -->
+
+     <!--Ventana Modal EVENTO SALÓN -->
+     <input type="checkbox" id="evento-salon">
+     
+     <div class="container-salon">
+        <div class="content-salon">
+            <h2>¡Dirección para el Evento!</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.6937693272016!2d-99.0320855!3d19.597616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f1ae4ca4bb0d%3A0x53713a7b3f492658!2sSal%C3%B3n%20Emperador!5e0!3m2!1ses-419!2smx!4v1657932476120!5m2!1ses-419!2smx" 
+               width="100%" height="300" name="Salonframe"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <div class="evento-close">
+                <label for="evento-salon"> Cerrar </label>
+            </div>
+        </div>
+        <label for="evento-salon" class="close-salon"></label>
+     </div>
+
+     <!--Fin de Ventana Modal SALÓN -->
+
+
+     <!-- ASISTENCIA -->
+     <div class="Asistencia">
+          
+               <h1 class="Titulo_2"> Confirmar asistencia </h1>
+
+          <main>
+                    <a href="https://api.whatsapp.com/send/?phone=525513053260&text&type=phone_number&app_absent=0" class="btn-link"><i class="fa-solid fa-phone"></i></a> 
+                    <a href="https://api.whatsapp.com/send/?phone=525513053260&text&type=phone_number&app_absent=0" class="btn-what"><i class="fa-brands fa-whatsapp"></i></a> 
+                    <p class="llamar"> Llámame </p> <p class="what"> Contáctame </p>
+                    
+          </main>
+     </div>
+
+
+     <!-- FOTOGRAFÍAS -->
+
+      <!--image slider start-->
+    <div class="slider">
+               <h1 class="Titulo_3"> Fotografías </h1>
+          <div class="slides">
+               <!--radio buttons start-->
+               <input type="radio" name="radio-btn" id="radio1">
+               <input type="radio" name="radio-btn" id="radio2">
+               <input type="radio" name="radio-btn" id="radio3">
+               <input type="radio" name="radio-btn" id="radio4">
+               <input type="radio" name="radio-btn" id="radio5">
+               <input type="radio" name="radio-btn" id="radio6">
+               <input type="radio" name="radio-btn" id="radio7">
+               <input type="radio" name="radio-btn" id="radio8">
+               <!--FIN radio buttons start-->
+
+               <!--slide images start-->
+               <div class="slide first">
+                    <img src="./Galeria/Fotos_V1.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V2.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V3.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V4.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V5.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V6.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V7.png" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/Fotos_V8.png" alt="">
+               </div>
+               <!--FIN slide images end-->
+
+               <!--AUTOMATICO DEl BOTON la navigation start-->
+               <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                    <div class="auto-btn6"></div>
+                    <div class="auto-btn7"></div>
+                    <div class="auto-btn8"></div>
+                    <input type="radio" name="radio-btn" id="radio1">
+               </div>
+                <!--FIN automatic navigation end-->
+
+                <!--Ejecucion de radio buttons end-->
+          </div>
+         
+     </div>
+          <!--image slider end-->
+
+     <!-- FIN DE FOTOGRAFÍA-->
+
+     <!-- CÓDIGO JAVA -->
+     <script src="Js/simplyCountdown.min.js"></script>
+	<script src="Js/countdown.js"></script>
+     <script src="Js/foto.js"></script>
+</body>
+</html>
